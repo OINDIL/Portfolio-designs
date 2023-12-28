@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecebf3;
+}
+a:link{
+  text-decoration: none;
+}
+/*! Navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  /* background-color: aliceblue; */
+}
+.navbar .name{
+  font-weight: 500;
+}
+.navbar .links ul{
+  display: flex;
+}
+.navbar .links ul li{
+  list-style-type: none;
+  margin-right: 15px;
+}
+.navbar .links ul li a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.navbar .links ul li a:hover{
+  /* text-decoration: underline; */
+  border-bottom: 1px solid;
+  color: #0C6291;
+}
+
+/*! Homepage */
+.container{
+  /* background-color: azure; */
+  height: 88vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 50px;
+}
+.container .intro-text .intro-bold{
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 35px;
+}
+.container .image{
+  margin-left: 30px;
+}
+.container .image img{
+  width: 400px;
+}
+.scroll-wheel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.scroll-wheel i{
+  font-size: 2em;
+}
+.scroll-wheel a{
+  color: black;
+}
+/* ! About part */
+.about{
+  text-align: center;
+  height: 100vh;
+  padding: 0 50px;
+}
+.about > p{
+  font-size: 2em;
+}
+.about .about-container{
+  height: 50vh;
+  display: flex;
+  margin-bottom: 20px;
+}
+.about .about-image-skills{
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(71, 42, 42); */
+  border: 1px solid;
+  border-radius: 20px;
+}
+.about .about-image-skills p{
+  font-size: 2em;
+  font-weight: 500;
+}
+.about .about-skills{
+  width: 70vw;
+  /* background-color: rgb(51, 51, 95); */
+}
+.about .about-skills .skills-icons i{
+  font-size: 5em;
+  transition: color 0.2s ease;
+}
+.about .about-skills .skills-icons i:hover{
+  color: #0C6291;
+}
+
+/*! Hobby container */
+.about .hobby-container{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 35vh;
+}
+.about .hobby-container .about-image-hobby{
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(71, 42, 42); */
+  border: 1px solid;
+  border-radius: 20px;
+}
+.about .hobby-container .about-image-hobby p{
+  font-weight: 500;
+  font-size: 2em;
+}
+.about .hobby-container .about-hobby{
+  width: 70vw;
+}
+
+/*! Projects component */
