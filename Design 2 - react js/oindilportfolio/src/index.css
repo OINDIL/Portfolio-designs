@@ -83,7 +83,7 @@ a:link{
   margin-bottom: 20px;
 }
 .about .about-image-skills{
-  width: 30vw;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +114,7 @@ a:link{
   height: 35vh;
 }
 .about .hobby-container .about-image-hobby{
-  width: 30vw;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,3 +131,53 @@ a:link{
 }
 
 /*! Projects component */
+.projects{
+  height: 100vh;
+  padding: 0 50px;
+  text-align: center;
+}
+.projects > p{
+  font-size: 2em;
+}
+.projects-container{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+.project-1{
+  /* background-color: #0C6291; */
+  height: 50%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.project-1 .thumbnail{
+  border: 1px solid;
+  background-color: #0C6291;
+  border-radius: 20px;
+  width: 100vw;
+}
+.project-2{
+  /* background-color: aquamarine; */
+  height: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.project-2 .thumbnail{
+  border: 1px solid;
+  border-radius: 20px;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+/* ! Contact form */
+
+.contact{
+  height: 100vh;
+  padding: 0 50px;
+}
+.contact .contact-container{
+  display: flex;
+}
+.contact-form form{
+  display: flex;
+}
