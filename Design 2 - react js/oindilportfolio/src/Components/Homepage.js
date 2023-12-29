@@ -7,20 +7,20 @@ export default function Homepage() {
           <img src={myImage} alt="" />
         </div>
         <div className="intro-text">
-          <p className="intro-bold">Hi👋visitor, welcome to my portfolio.</p>
+          <p className="intro-bold">Hi👋there, welcome to my portfolio.</p>
           <p className="intro-2">
             I am <span id="name-animation">Oindil Golder</span>, an aspiring{" "}
             <span id="tech-animation">MERN</span> stack developer. Based in{" "}
             <span id="place-animation">Kolkata</span>.
           </p>
           <div className="contact-info-icons">
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/oindil-golder" target="_blank" rel="noreferrer">
               <i className="bx bxl-linkedin-square"></i>
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/oindil.golder/" target="_blank" rel="noreferrer">
               <i className="bx bxl-instagram-alt"></i>
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/oindil" target="_blank" rel="noreferrer">
               <i className="bx bxl-github"></i>
             </a>
           </div>
