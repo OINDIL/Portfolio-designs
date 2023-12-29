@@ -2,9 +2,10 @@ export default function Contact(){
     return (
         <>
             <div className="contact">
+                <p>Contact</p>
                 <div className="contact-container">
                     <div className="contact-label">
-                        <p>Contact</p>
+                        <p>Contact images and links</p>
                     </div>
                     <div className="contact-form">
                         <form>

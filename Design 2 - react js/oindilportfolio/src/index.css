@@ -57,10 +57,20 @@ a:link{
   width: 400px;
 }
 .scroll-wheel{
+  position: relative;
+  animation: MoveUpDown 1s linear infinite;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   /* background-color: aqua; */
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
 }
 .scroll-wheel i{
   font-size: 2em;
@@ -76,6 +86,7 @@ a:link{
 }
 .about > p{
   font-size: 2em;
+  margin-bottom: 10px;
 }
 .about .about-container{
   height: 50vh;
@@ -138,6 +149,7 @@ a:link{
 }
 .projects > p{
   font-size: 2em;
+  margin-bottom: 10px;
 }
 .projects-container{
   height: 85vh;
@@ -170,14 +182,51 @@ a:link{
 }
 
 /* ! Contact form */
-
 .contact{
-  height: 100vh;
-  padding: 0 50px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  padding: 50px 0;
+}
+.contact > p{
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 .contact .contact-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+  /* background-color: #0C6291; */
+}
+.contact-label{
+  width: 40%;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.contact-form{
+  width: 60%;
+  height: 100%;
+  padding: 0 80px;
 }
 .contact-form form{
   display: flex;
+  flex-direction: column;
+}
+
+/* ! Footer */
+.footer{
+  padding: 10px 0;
+  height: 5vh;
+  background-color: #0C6291;
+  width: 100vw;
+  text-align: center;
+}
+.footer > h5{
+  background-color: #0C6291;
+  color: #ecebf3;
 }
