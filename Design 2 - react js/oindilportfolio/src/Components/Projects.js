@@ -1,7 +1,7 @@
 export default function Project() {
   return (
     <>
-    <div className="projects">
+    <div className="projects" id="projects">
         <p>Projects</p>
       <div className="projects-container">
         <div className="project-1">

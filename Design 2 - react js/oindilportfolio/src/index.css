@@ -23,17 +23,19 @@ a:link{
 }
 .navbar .links ul li{
   list-style-type: none;
+}
+.navbar .links ul li:nth-child(1),li:nth-child(2),li:nth-child(3){
   margin-right: 15px;
 }
 .navbar .links ul li a{
-  color: black;
+  color: rgb(54, 53, 53);
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 .navbar .links ul li a:hover{
   /* text-decoration: underline; */
-  border-bottom: 1px solid;
-  color: #0C6291;
+  font-weight: bold;
+  color: black;
 }
 
 /*! Homepage */
@@ -41,9 +43,11 @@ a:link{
   /* background-color: azure; */
   height: 88vh;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   align-items: center;
-  padding: 0 50px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 100px 100px 0 100px;
 }
 .container .intro-text .intro-bold{
   font-weight: 600;
@@ -51,10 +55,65 @@ a:link{
   line-height: 35px;
 }
 .container .image{
-  margin-left: 30px;
+  margin-bottom: 10px;
 }
 .container .image img{
-  width: 400px;
+  width: 250px;
+  filter: drop-shadow(0.2rem 0.3rem 0.8rem black);
+  border-radius: 30% 50% 60% 40%;
+}
+/* ? Animation */
+#name-animation{
+  background-image: linear-gradient(60deg,#7743DB, #C3ACD0);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.4s ease;
+}
+#name-animation:hover{
+  font-size: 2em;
+  font-weight: bold;
+  background-image: linear-gradient(60deg,#7743DB, #C3ACD0);
+  background-clip: text;
+  color: transparent;
+}
+#tech-animation{
+  transition: all 0.4s ease;
+  background-image: linear-gradient(60deg,#F31559, #FF52A2);
+  background-clip: text;
+  color: transparent;
+}
+#tech-animation:hover{
+  font-size: 2em;
+  font-weight: bold;
+  background-image: linear-gradient(60deg,#F31559, #FF52A2);
+  background-clip: text;
+  color: transparent;
+}
+#place-animation{
+  background-image: linear-gradient(60deg,#C07F00, #FFD95A);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.4s ease;
+}
+#place-animation:hover{
+  font-size: 2em;
+  font-weight: bold;
+  background-image: linear-gradient(60deg,#C07F00, #FFD95A);
+  background-clip: text;
+  color: transparent;
+}
+/* ? Animation end */
+.contact-info-icons{
+  margin-top: 10px;
+}
+.contact-info-icons a i{
+  font-size: 1.7em;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+
+}
+.contact-info-icons a i:hover{
+  color: rgba(0, 0, 0, 1);
 }
 .scroll-wheel{
   position: relative;

@@ -1,7 +1,7 @@
 export default function About(){
     return (
         <>
-            <div className="about">
+            <div className="about" id="about">
                 <p>About</p>
                 <div className="about-container">
                     <div className="about-image-skills">
