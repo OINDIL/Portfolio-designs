@@ -1,4 +1,5 @@
 import myImage from "./Images/myimage.jpg";
+import CV from "./Documents/OINDIL_GOLDER.pdf"
 export default function Homepage() {
   return (
     <>
@@ -22,6 +23,9 @@ export default function Homepage() {
             </a>
             <a href="https://github.com/oindil" target="_blank" rel="noreferrer">
               <i className="bx bxl-github"></i>
+            </a>
+            <a title="View CV" href={CV} target="_blank" rel="noreferrer">
+              <i class='bx bxs-file-pdf'></i>
             </a>
           </div>
         </div>
