@@ -2,7 +2,7 @@ export default function Project() {
   return (
     <>
     <div className="projects" id="projects">
-        <p>Projects</p>
+        <p><span>Projects</span></p>
       <div className="projects-container">
         <div className="project-1">
           <div className="thumbnail">

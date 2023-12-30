@@ -6,19 +6,6 @@
   background-color: #ecebf3;
 }
 /* ! Animation classes */
-.animation-class{
-  background-image: linear-gradient(60deg,#7743DB, #C3ACD0);
-  background-clip: text;
-  color: transparent;
-  transition: all 0.4s ease;
-}
-.animation-class-underline:hover{
-  font-size: 2em;
-  font-weight: bold;
-  background-image: linear-gradient(60deg,#7743DB, #C3ACD0);
-  background-clip: text;
-  color: transparent;
-}
 /* ! End of animation classes */
 a:link{
   text-decoration: none;
@@ -256,18 +243,42 @@ a:link{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   /* background-color: rgb(71, 42, 42); */
-  border: 1px solid;
+  background-image: url(./Components/Images/photography-tab-background.jpg);
+  /* border: 1px solid; */
+  background-position: center;
+  background-size: cover;
   border-radius: 20px;
 }
 .about .hobby-container .about-image-hobby p{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 2em;
+  background: transparent;
+}
+.about .hobby-container .about-image-hobby p:nth-child(2){
+  font-size: 1.2em;
+  color: #b8a02c;
+}
+.about .hobby-container .about-image-hobby p span{
+  background-image: linear-gradient(60deg,#e9ce44,#1d7205);
+  background-clip: text;
+  color: transparent;
 }
 .about .hobby-container .about-hobby{
   width: 70vw;
+  display: flex;
+  overflow-y: scroll;
+  padding: 10px 0;
+  margin-right: 20px;
+  border-radius: 20px;
 }
-
+.about .hobby-container .about-hobby img{
+  width: 300px;
+  border-radius: 20px;
+  margin: 0 10px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
 /*! Projects component */
 .projects{
   height: 100vh;
@@ -277,6 +288,12 @@ a:link{
 .projects > p{
   font-size: 2em;
   margin-bottom: 10px;
+  font-weight: 600;
+}
+.projects > p > span{
+  background-image: linear-gradient(60deg,#12486B,#419197);
+  background-clip: text;
+  color: transparent;
 }
 .projects-container{
   height: 85vh;

@@ -1,3 +1,4 @@
+import image from './Images/tech-stack-image.png'
 export default function About() {
   return (
     <>
@@ -22,16 +23,24 @@ export default function About() {
               <i className="bx bxl-mongodb"></i>
               <i className="bx bxl-java"></i>
               <i className="bx bxl-nodejs"></i>
-              <i class='bx bxl-git'></i>
+              <i className='bx bxl-git'></i>
             </div>
           </div>
         </div>
         <div className="hobby-container">
           <div className="about-image-hobby">
-            <p>PHOTOGRAPHY📸</p>
+            <p><span>PHOTOGRAPHY</span></p>
+            <p>As a hobby</p>
           </div>
           <div className="about-hobby">
-            <p>images will go here, overflow-y todo</p>
+            {/* <p>images will go here, overflow-y todo</p> */}
+            <img src={image} alt="" />
+            <img src={image} alt="" />
+            <img src={image} alt="" />
+            <img src={image} alt="" />
+            <img src={image} alt="" />
+            <img src={image} alt="" />
+            <img src={image} alt="" />
           </div>
         </div>
       </div>

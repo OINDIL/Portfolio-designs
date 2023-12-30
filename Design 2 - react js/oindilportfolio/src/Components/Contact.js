@@ -2,7 +2,7 @@ export default function Contact(){
     return (
         <>
             <div className="contact" id="contact">
-                <p>Contact</p>
+                <p><span>Contact</span></p>
                 <div className="contact-container">
                     <div className="contact-label">
                         <p>Contact images and links</p>
