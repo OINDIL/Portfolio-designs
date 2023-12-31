@@ -25,7 +25,7 @@ export default function Homepage() {
               <i className="bx bxl-github"></i>
             </a>
             <a title="View CV" href={CV} target="_blank" rel="noreferrer">
-              <i class='bx bxs-file-pdf'></i>
+              <i className='bx bxs-file-pdf'></i>
             </a>
           </div>
         </div>

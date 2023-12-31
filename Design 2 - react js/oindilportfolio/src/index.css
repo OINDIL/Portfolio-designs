@@ -192,6 +192,10 @@ a:link{
 .about .about-skills > h3{
   font-size: 1.6em;
 }
+.about .about-skills > p{
+  font-size: 0.9em;
+  font-weight: 400;
+}
 .about .about-skills .skills-icons{
   display: flex;
   flex-wrap: wrap;
@@ -434,6 +438,41 @@ a:link{
 .contact-form form{
   display: flex;
   flex-direction: column;
+}
+.contact-form form .design-input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  transition: all 0.2s ease;
+}
+.contact-form form .design-input:focus{
+  /* border-bottom: none; */
+  outline: none;
+  border-bottom: 2px solid #025992;
+}
+.contact-form form textarea{
+  border: 1px solid black;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  padding:0 4px;
+}
+.contact-form form textarea:focus{
+  outline: none;
+  border: 2px solid #025992;
+}
+.contact-form form input[type="submit"]{
+  margin-top: 6px;
+  padding: 3px;
+  border-radius: 30px;
+  border: none;
+  background-color: #016aae;
+  color: #fff;
+  transition: background-color 0.2s ease;
+} 
+.contact-form form input[type="submit"]:hover{
+  background-color: #025992;
+  cursor: pointer;
 }
 .mobile-no{
   display: flex;

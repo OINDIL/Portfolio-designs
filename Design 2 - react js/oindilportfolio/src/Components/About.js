@@ -33,7 +33,6 @@ export default function About() {
             <p>As a hobby</p>
           </div>
           <div className="about-hobby">
-            {/* <p>images will go here, overflow-y todo</p> */}
             <img src={image} alt="" />
             <img src={image} alt="" />
             <img src={image} alt="" />
