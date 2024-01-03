@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  /* background-color: aquamarine; */
+  height: 100vh;
+  padding: 30px;
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .round {
+  display: flex;
+  /* background-color: aqua; */
+  align-items: center;
+  width: 3em;
+}
+nav .round .round-black {
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+nav ul .li {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25vw;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-left: 2em;
+}
+nav ul .parralel-lines {
+  /* background-color: aqua; */
+  height: 10px;
+  width: 40px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+header .big-intro-text,
+.big-intro-text-mid {
+  font-size: 6em;
+  font-weight: 500;
+}
+header .big-intro-text-mid {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .discuss-the-project {
+  /* margin: 3em 0 3em 0; */
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .discuss-the-project .outer,
+.inner {
+  /* background-color: aquamarine; */
+  border: 1px solid;
+  width: 230px;
+  height: 90px;
+  border-radius: 50%;
+}
+header .discuss-the-project .outer {
+  transform: rotate(-25deg);
+}
+header .discuss-the-project .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua;   */
+  padding: 1.4em;
+  transform: rotate(25deg);
+}
+header .discuss-the-project .inner p {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+header .discuss-the-project .inner:hover{
+    transform: rotate(-25deg);
+}
+header .about-text {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  position: relative;
+  bottom: -90px;
+}
+header .about-text .about-1,
+.about-2 {
+  /* background-color: aqua; */
+  width: 30vw;
+}
+header .about-text .about-2 {
+  width: 40vw;
+}
+header .about-text .about-1,
+.about-2 p {
+  font-size: 0.7em;
+}
+
+@media (max-width: 680px) {
+    nav ul li{
+        font-size: 0.6em;
+    }
+  header .big-intro-text,
+  .big-intro-text-mid {
+    position: relative;
+    top: 5rem;
+    font-size: 3em;
+  }
+  header .big-intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+  }
+  header .big-intro-text-mid{
+    color: grey;
+  }
+  header .discuss-the-project {
+    position: relative;
+    top: 9em;
+  }
+  header .about-text{
+    position: relative;
+    top: 15em;
+  }
+}

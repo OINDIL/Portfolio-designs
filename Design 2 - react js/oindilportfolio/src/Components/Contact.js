@@ -39,6 +39,7 @@ export default function Contact() {
               oindilgolder303@gmail.com
             </a>
           </div>
+          
           <div className="contact-form">
             <h4>Leave a message</h4>
             <form ref={form} onSubmit={sendEmail}>
