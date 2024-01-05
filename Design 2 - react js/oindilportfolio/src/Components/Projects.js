@@ -1,3 +1,5 @@
+import textDev from './Images/text-og.png'
+import weather from './Images/weatherapp-sc.png'
 export default function Project() {
   return (
     <>
@@ -5,7 +7,9 @@ export default function Project() {
         <p><span>Projects</span></p>
       <div className="projects-container">
         <div className="project-1">
-          <div className="thumbnail"></div>
+          <div className="thumbnail">
+            <img src={textDev} alt="" />
+          </div>
           <div className="desc">
             <h3>Text.dev</h3>
             <p>It is a password generator cum text manipulation web app. It is highly effective on generating secure passwords that comes in handy everytime. I use this tool for creating passwords and using those passwords on various websites and apps. Then there's text manipulation feature that can change a text's case and remove extra spaces on click of a button. Go and experience it today.</p>
@@ -19,7 +23,7 @@ export default function Project() {
 
         <div className="project-2">
           <div className="thumbnail">
-            <p></p>
+            <img src={weather} alt="" />
           </div>
           <div className="desc">
           <h3>Weather App</h3>
